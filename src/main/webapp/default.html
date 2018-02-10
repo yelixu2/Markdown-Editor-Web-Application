@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome Page</title>
+	<style type="text/css">
+		body {
+			background: black;
+		}
+		h1 {
+			color: white;
+			
+		}
+		h4 {
+			color: white;
+			
+		}
+		label{
+			color: white;
+			
+		}
+		input{
+			background: white;
+			border-color: grey;
+			border-width: 5px;
+			border-style: solid;
+			color: black;
+		}
+		.title1{
+			margin: :auto;
+			text-align: center;
+		}
+		.title2{
+			/*margin: :auto;*/
+			text-align: center;
+		}
+		.main{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="title1">
+	<h1>Welcome!</h1>
+	</div>
+	<div class="title2">
+		<h4>Please enter a username to start.</h4>
+	</div>
+	<div class="main">
+		<form action="post">
+			<label id="name">Username:</label>
+			<input id="name" type="text" name="username">
+            <input type="hidden" name="postid" value=0>  
+            <button type="submit" name="action" value="open">submit</button>
+		</form>
+	</div>
+
+
+</body>
+</html>
